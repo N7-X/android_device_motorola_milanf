@@ -44,7 +44,8 @@ TARGET_USES_SILEAD_FINGERPRINT := true
 BOOT_KERNEL_MODULES := \
     tcpc_sgm7220.ko \
     tcpc_rt1711h.ko \
-    rt_pd_manager.ko
+    rt_pd_manager.ko \
+    nova_0flash_mmi.ko
 
 # NFC
 TARGET_USES_PN5XX_PN8X_NFC := true
