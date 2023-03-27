@@ -58,3 +58,9 @@ $(call inherit-product, device/motorola/sm4350-common/platform.mk)
 
 # include board vendor blobs
 $(call inherit-product-if-exists, vendor/motorola/milanf/milanf-vendor.mk)
+
+# Recovery
+include $(LOCAL_PATH)/device-recovery.mk
+
+# Include MicroG
+WITH_GMS := true

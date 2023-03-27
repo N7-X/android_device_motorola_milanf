@@ -63,7 +63,8 @@ BOARD_VENDOR_KERNEL_MODULES_LOAD := \
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := \
     tcpc_sgm7220.ko \
     tcpc_rt1711h.ko \
-    rt_pd_manager.ko
+    rt_pd_manager.ko \
+    nova_0flash_mmi.ko
 
 # Partition information
 BOARD_SUPER_PARTITION_SIZE := 9831448576
